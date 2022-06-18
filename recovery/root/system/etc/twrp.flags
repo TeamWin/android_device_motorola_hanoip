@@ -52,7 +52,6 @@
 /sp                     emmc              /dev/block/bootdevice/by-name/sp              flags=backup=1;flashimg=1
 /spunvm                 emmc              /dev/block/bootdevice/by-name/spunvm          flags=backup=1;flashimg=1
 /ssd                    emmc              /dev/block/bootdevice/by-name/ssd             flags=backup=1;flashimg=1
-/super                  emmc              /dev/block/bootdevice/by-name/super           flags=backup=1;flashimg=1
 /uefivarstore           emmc              /dev/block/bootdevice/by-name/uefivarstore    flags=backup=1;flashimg=1
 /utags                  emmc              /dev/block/bootdevice/by-name/utags           flags=backup=1;flashimg=1
 /utagsBackup            emmc              /dev/block/bootdevice/by-name/utagsBackup     flags=backup=1;flashimg=1
