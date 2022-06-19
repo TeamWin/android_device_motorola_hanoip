@@ -1,7 +1,7 @@
 #!/system/bin/sh
 
-module_path=/vendor/lib/modules
-firmware_path=/vendor/firmware
+module_path=/sbin/modules
+firmware_path=/sbin/firmware
 touch_class_path=/sys/class/touchscreen
 insmod $module_path/exfat.ko
 insmod $module_path/ilitek_v3_mmi.ko
