@@ -79,3 +79,8 @@ PRODUCT_PACKAGES_ENG += \
 # Apex libraries
 PRODUCT_COPY_FILES += \
     $(OUT_DIR)/target/product/hanoip/obj/SHARED_LIBRARIES/libandroidicu_intermediates/libandroidicu.so:$(TARGET_COPY_OUT_RECOVERY)/root/system/lib64/libandroidicu.so
+
+# libhidlbase
+PRODUCT_COPY_FILES += \
+    device/motorola/hanoip/recovery/root/system/lib64/libhidlbase.so:$(TARGET_COPY_OUT_RECOVERY)/root/system/lib64/libhidlbase.so
+
