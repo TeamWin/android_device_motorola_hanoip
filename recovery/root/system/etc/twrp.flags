@@ -61,6 +61,7 @@
 system                  ext4              /system                                       display="System"
 vendor                  ext4              /vendor                                       display="Vendor"
 product                 ext4              /product                                      display="Product"
+system_ext              ext4              /system_ext                                   display="System_ext"
 
 # Internal , OTA & external storage
 
